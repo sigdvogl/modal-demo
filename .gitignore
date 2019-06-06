@@ -1,0 +1,14 @@
+*~
+npm-debug.log
+.DS_Store
+Thumbs.db
+.idea
+node_modules
+
+*.zip
+*.gz
+*.tar
+*.pdf
+*.psd
+*.ai
+*.xd
