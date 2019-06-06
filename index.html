@@ -3,17 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Title</title>
+
+	<!-- Load CSS Files -->
 	<link rel="stylesheet" href="node_modules/foundation-sites/dist/css/foundation.min.css" />
+	<link rel="stylesheet" href="node_modules/slick-slider/slick/slick.css" />
+	<link rel="stylesheet" href="node_modules/slick-slider/slick/slick-theme.css" />
 	<link rel="stylesheet" href="assets/css/app.css" />
 
 </head>
 <body>
 
-<p>
-	<button class="button" data-open="exampleModal1">Click me for a modal</button>
-</p>
 
-<!-- Modal Box with content -->
+<h4>Demo with slick + foundation reveal (modalbox)</h4>
+<!-- Slick Slider -->
+<div class="js-carousel">
+	<div>
+		<img src="assets/images/unsplash-Jesse-Bowser.jpg" alt="unsplash-Jesse-Bowser">
+		<button class="button" data-open="exampleModal1">Click me for a modal</button>
+	</div>
+	<div>
+		<img src="assets/images/unsplash-Thomas-Kelley.jpg" alt="unsplash-Thomas-Kelley">
+		<button class="button" data-open="exampleModal2">Click me for another modal</button>
+	</div>
+</div>
+
+
+<!-- Modal Box with #1 content -->
 <div class="reveal" id="exampleModal1" data-reveal>
 	<h1>Awesome. I Have It.</h1>
 	<p class="lead">Your couch. It is mine.</p>
@@ -23,8 +38,27 @@
 	</button>
 </div>
 
+<!-- Modal Box with #2 content -->
+<div class="reveal" id="exampleModal2" data-reveal>
+	<h1>Awesome. I Have It.</h1>
+	<p class="lead">Your couch. It is mine.</p>
+	<p>Licorice caramels gummies ice cream sesame chocolate bar halvah jelly-o
+		chocolate bar soufflé bonbon tiramisu chocolate fruitcake snaps. apple pie
+		donut lollipop gingerbread cookie tart cotton candy ice cream sweet tiramisu
+		cotton candy icing macaroon. pudding marzipan gummies apple pie icing
+		chocolate dragée tiramisu macaroon jujubes muffin candy canes gummies.
+		sweet topping apple pie muffin marzipan.
+	</p>
+	<button class="close-button" data-close aria-label="Close modal" type="button">
+		<span aria-hidden="true">&times;</span>
+	</button>
+</div>
+
+
+<!-- Load Javascript Files -->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/foundation-sites/dist/js/foundation.min.js"></script>
+<script src="node_modules/slick-slider/slick/slick.min.js"></script>
 <script src="assets/js/app.js"></script>
 
 </body>

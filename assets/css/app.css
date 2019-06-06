@@ -1,1 +1,19 @@
+/* Image fix */
+img {
+    max-width: 100%;
+    height: auto;
+}
 
+/* Slick slider styles */
+
+.slick-slide {
+    position: relative;
+}
+
+.slick-list button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    z-index: 1;
+}
