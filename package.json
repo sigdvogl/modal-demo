@@ -11,7 +11,7 @@
   "devDependencies": {
     "foundation-sites": "^6.5.3",
     "gulp": "^4.0.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "slick-slider": "^1.8.2"
   }
 }
